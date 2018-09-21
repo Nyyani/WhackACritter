@@ -16,4 +16,13 @@ public class Score : MonoBehaviour {
         currentValue = currentValue + _toChange;
         displayText.text = currentValue.ToString();
     }
+
+    //Reset the score to zero
+    public void ResetScore()
+    {
+
+        currentValue = 0;
+        displayText.text = currentValue.ToString();
+
+    }
 }
